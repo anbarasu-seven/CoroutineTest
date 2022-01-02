@@ -19,6 +19,7 @@ class MainActivity2 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
 
+        //application scoped job
         findViewById<Button>(R.id.button1).setOnClickListener {
             val job = GlobalScope.launch {
                 for (i in 0..1000){
@@ -29,6 +30,7 @@ class MainActivity2 : AppCompatActivity() {
 
         }
 
+        //activity scoped job
         findViewById<Button>(R.id.button2).setOnClickListener {
             val job = lifecycleScope.launch {
                 for (i in 0..1000){
@@ -38,6 +40,7 @@ class MainActivity2 : AppCompatActivity() {
             }
         }
 
+        //viewModel scoped job
         findViewById<Button>(R.id.button3).setOnClickListener {
                 myViewModel.fetchData()
         }
