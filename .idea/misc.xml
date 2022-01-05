@@ -5,6 +5,8 @@
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.3265625" />
         <entry key="app/src/main/res/layout/activity_main2.xml" value="0.3265625" />
+        <entry key="app/src/main/res/layout/coroutine_scopes.xml" value="0.3265625" />
+        <entry key="app/src/main/res/layout/launch_and_async.xml" value="0.3265625" />
         <entry key="app/src/main/res/layout/thread_sample.xml" value="0.16145833333333334" />
       </map>
     </option>

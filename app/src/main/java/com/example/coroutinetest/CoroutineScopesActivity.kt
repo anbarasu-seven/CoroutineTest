@@ -10,14 +10,14 @@ import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
-class MainActivity2 : AppCompatActivity() {
+class CoroutineScopesActivity : AppCompatActivity() {
 
     private val TAG = "MainActivity"
     private val myViewModel: MyViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main2)
+        setContentView(R.layout.coroutine_scopes)
 
         //application scoped job
         findViewById<Button>(R.id.button1).setOnClickListener {

@@ -10,10 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CoroutineTest">
         <activity
-            android:name=".MainActivity2"
+            android:name=".CoroutineScopesActivity"
             android:exported="false" />
         <activity
             android:name=".ThreadSample"
+            android:exported="false" />
+        <activity
+            android:name=".LaunchAsyncActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
