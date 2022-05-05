@@ -7,7 +7,7 @@ import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
-class MyViewModel : ViewModel() {
+class CoroutineScopesViewModel : ViewModel() {
 
     fun fetchData() {
         val job = viewModelScope.launch {

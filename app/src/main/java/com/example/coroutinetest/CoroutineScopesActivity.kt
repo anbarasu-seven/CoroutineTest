@@ -13,7 +13,7 @@ import kotlinx.coroutines.launch
 class CoroutineScopesActivity : AppCompatActivity() {
 
     private val TAG = "MainActivity"
-    private val myViewModel: MyViewModel by viewModels()
+    private val myViewModel: CoroutineScopesViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
